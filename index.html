@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dailyform</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+	<main>
+		<section>
+			<h1><img src="img/sign_up_icon.png"> Create your free account</h1>
+			<p class="dailyform__p">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="">Log in.</a></p>
+			<form id="dailyform__form" method="post" action="php/dailyform.php">
+				<div class="dailyform__name">
+					<label><input type="text" name="first-name" placeholder="First name" id="first_name" required></label>
+					<label><input type="text" name="last-name" placeholder="Last name" id="last_name" required></label>
+				</div>
+				<label><input type="email" name="email" placeholder="Email address" id="email" required></label>
+				<label><input type="password" name="password" placeholder="Password" id="password" required></label>
+				<input type="submit" value="Sign up for free">
+			</form>
+			<p class="dailyform__footer">By clicking on “Sign up for free”, you agree to the <a href="">Terms of Service</a> and the <a href="">Privacy Policy</a></p>
+		</section>
+	</main>
+</body>
+</html>
